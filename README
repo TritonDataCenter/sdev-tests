@@ -1,0 +1,12 @@
+This repoistory serves as a small series of tests that can be run in parallel to
+beat on the sdev file system mounted at /dev on illumos based systems.
+
+To build all of the contents simply run:
+
+make
+
+This works with either Sun make, the open source dmake, or GNU make. All the
+contents will be dropped into the output/ directory.
+
+The contents of this project are licensed under version 1.0 of the CDDL. See
+License for more information.
